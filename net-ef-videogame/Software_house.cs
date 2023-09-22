@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace net_ef_videogame
 {
-    public class Sfotware_house
+    public class Software_house
     {
         //[Key]
         public long S_house_Id { get; set; }
