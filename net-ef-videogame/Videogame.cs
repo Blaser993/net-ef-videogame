@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace net_ef_videogame
     //[Index(nameof(id) IsUnique = true]
     public class Videogame
     {
-        //[Key]
+        [Key]
         public long VideogameId { get; set; }
 
         public string Name { get; set; }
